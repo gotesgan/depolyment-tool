@@ -1,0 +1,18 @@
+{
+  "name": "app-setup-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for setting up Docker and generating app metadata",
+  "main": "app-setup-cli.js",
+  "type": "module",
+  "bin": {
+    "app-setup-cli": "./app-setup-cli.js"
+  },
+  "scripts": {
+    "start": "node app-setup-cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "fs-extra": "^10.0.0"
+  }
+}

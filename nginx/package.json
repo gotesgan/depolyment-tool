@@ -1,0 +1,19 @@
+{
+  "name": "app-deployment-tools",
+  "version": "1.0.0",
+  "description": "CLI tools for app deployment and Nginx configuration with optional SSL and domain setup",
+  "type": "module",
+  "bin": {
+    "app-setup-cli": "./app-setup-cli.js",
+    "nginx-cli": "./nginx-cli.js"
+  },
+  "scripts": {
+    "start:app-setup": "node app-setup-cli.js",
+    "start:nginx": "node nginx-cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "fs-extra": "^10.0.0"
+  }
+}
